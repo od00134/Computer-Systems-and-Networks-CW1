@@ -9,5 +9,3 @@ while True:
     print(f"Connection establishedd from address {address}")
     clientSocket.send(bytes("Welcome to the server!!!", "utf-8"))
     clientSocket.close()
-
-7
